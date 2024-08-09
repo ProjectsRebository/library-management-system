@@ -17,6 +17,5 @@
 
  5- for authentication, I used basic auth because only for simplicity (user nme : admin, password: password) 
 
-### to run application you can run local or if you dont want to run it then uncomment docker file maven plugin
-# then build the app it will create docker image for you then run this image using below command it will create docker image 
+### to run application you can run local or if you dont want to run it then uncomment docker file maven plugin in pom file then build the app it will create docker image for you then run this image using below command it will create docker image 
 ###  "docker run -p 8080:8080 library-management:0.0.1-SNAPSHOT"
