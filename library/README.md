@@ -15,7 +15,7 @@
  4- post man collection with sample data attached so that the tester can use it to test 
  I also added pagination for get all books and get patrons to enhance performance 
 
- 5- for authentication, I used basic auth because only I have limited time for this app (user nme : admin, password: password) 
+ 5- for authentication, I used basic auth because only for simplicity (user nme : admin, password: password) 
 
 ### to run application you can run local or if you dont want to run it then uncomment docker file maven plugin
 # then build the app it will create docker image for you then run this image using below command it will create docker image 
